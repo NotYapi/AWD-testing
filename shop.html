@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Shop</title>
+        <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
+
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        <section id="header">
+            <a href="index.html"><img width="64" height="48" src="img/logo.png" class="logo" alt=""></a>
+            
+            <div>
+                <ul id="navbar">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a class="active" href="shop.html">Shop</a></li>
+                    <li><a href="cart.html"><img width="24" height="24" src="https://img.icons8.com/material-outlined/24/shopping-cart--v1.png"></a></li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="product1" class="section-p1">
+            <div class="title">
+                <h1 class="section-title">Item<span> Boxes</span></h1>
+            </div>
+    
+            <div class="card">
+                <img src="img/products/p1.png" alt="Wonderer Ticket">
+                <div class="card-content">
+                    <h3>Wonderer Ticket</h3>
+                    <h6>EXCLUSIVE</h6>
+                    <p>₱289.00</p>
+                    <button class="btn" onclick="addToCart('Wonderer Ticket', 289)">ADD TO CART</button>
+                </div>
+            </div>
+    
+            <div class="card">
+                <img src="img/products/p2.png" alt="GO Rocket Box">
+                <div class="card-content">
+                    <h3>GO Rocket Box</h3>
+                    <h6>LIMITED-TIME ONLY</h6>
+                    <p>₱289.00</p>
+                    <button class="btn" onclick="addToCart('GO Rocket Box', 289)">ADD TO CART</button>
+                </div>
+            </div>
+        </section>
+    
+        <section id="product2" class="section-p1">
+            <div class="title2">
+                <h1 class="section-title">Poké<span>Coins</span></h1>
+            </div>
+    
+            <div class="card">
+                <img src="img/products/coin.png" alt="600 PokéCoins">
+                <div class="card-content">
+                    <h3>600 PokéCoins</h3>
+                    <h6>50 WEBSTORE BONUS CO...</h6>
+                    <p>₱149.00</p>
+                    <button class="btn" onclick="addToCart('600 PokéCoins', 149)">ADD TO CART</button>
+                </div>
+            </div>
+    
+            <div class="card">
+                <img src="img/products/coin2.png" alt="1300 PokéCoins">
+                <div class="card-content">
+                    <h3>1300 PokéCoins</h3>
+                    <h6>100 WEBSTORE BONUS C...</h6>
+                    <p>₱289.00</p>
+                    <button class="btn" onclick="addToCart('1300 PokéCoins', 289)">ADD TO CART</button>
+                </div>
+            </div>
+    
+            <div class="card">
+                <img src="img/products/coin3.png" alt="2700 PokéCoins">
+                <div class="card-content">
+                    <h3>2700 PokéCoins</h3>
+                    <h6>200 WEBSTORE BONUS C...</h6>
+                    <p>₱589.00</p>
+                    <button class="btn" onclick="addToCart('2700 PokéCoins', 589)">ADD TO CART</button>
+                </div>
+            </div>
+    
+            <div class="card">
+                <img src="img/products/coin4.png" alt="5600 PokéCoins">
+                <div class="card-content">
+                    <h3>5600 PokéCoins</h3>
+                    <h6>400 WEBSTORE BONUS C...</h6>
+                    <p>₱1169.00</p>
+                    <button class="btn" onclick="addToCart('5600 PokéCoins', 1169)">ADD TO CART</button>
+                </div>
+            </div>
+        </section>    
+    
+        <script src="script.js"></script>
+    </body>
+
+</html>

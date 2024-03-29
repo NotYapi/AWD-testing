@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <section id="header">
+            <a href="index.html"><img width="64" height="48" src="img/logo.png" class="logo" alt=""></a>
+            
+            <div>
+                <ul id="navbar">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="shop.html">Shop</a></li>
+                    <li><a class="active" href="cart.html"><img width="24" height="24" src="https://img.icons8.com/material-outlined/24/shopping-cart--v1.png"></a></li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="cart">
+            <h2>Your Cart</h2>
+            <div id="cart-items">
+                <!-- Cart items will be dynamically added here -->
+            </div>
+            <div>
+                <p>Total: ₱<span id="total-amount">0.00</span></p>
+                <button class="btn" id="checkout-btn">Checkout</button>
+            </div>
+        </section>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
